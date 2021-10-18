@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+}
+.heading{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.heading-two{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.player-score{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+button{
+    /* background: blue; */
+    /* color: white; */
+    padding: 5px 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.form {
+    display: inline;
+}
+input{
+    padding: 5px 0;
+}
+.alert{
+    color: red;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border: 1px solid red;
+    padding: 5px 25px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    animation: sagor infinite 1s;
+}
+.winner{
+    color: green;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border: 1px solid green;
+    padding: 5px 25px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    animation: sagor infinite 1s;
+}
+
+@keyframes sagor {
+    0%{transform: translateX(0);}
+    50%{transform: translateX(20px)}
+    100%{transform: translateX(-20px)}
+}
+
